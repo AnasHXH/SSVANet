@@ -210,3 +210,14 @@ The evaluation process involves configuring the necessary paths and running the 
    ```
 
 ---
+```bibtex
+@article{SSVA2025,
+  title={SSVA: Self-Scanned Visual Attention for Enhanced Mask-Free Shadow Removal},
+  author={Ali, Anas M. and Naseif, Mohammed and Benjdira, Bilel and Osamah, Abdulrahman H. and Koubaa, Anis and Elhayek, Ahmed},
+  journal={Expert Systems with Applications},
+  publisher={Elsevier},
+  year={2025},
+  note={Accepted – to appear}
+}
+```
+---
