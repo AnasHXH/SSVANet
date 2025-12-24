@@ -1,0 +1,29 @@
+
+# ```yaml
+# # configs/config.yaml
+
+device: "cuda:0"          # Device to use ("cuda:0" or "cpu")
+learning_rate: 0.0002     # Learning rate for the optimizer
+num_epochs: 300           # Number of epochs to train
+batch_size: 4             # Batch size for training
+save_interval: 10         # Interval (in epochs) to save checkpoints
+image_size: 256           # Image size for training and testing
+
+
+train_gt_dir: "data/train/GT"
+train_lq_dir: "data/train/shadow"
+val_gt_dir: "data/val/GT"
+val_lq_dir: "data/val/shadow"
+test_lq_dir: "data/test/shadow"
+output_dir: "results/"
+
+save_dir: "checkpoints/"
+weights_path: null
+
+model:
+  img_channel: 3
+  width: 32
+  middle_blk_num: 1
+  enc_blk_nums: [1, 1, 1, 1]
+  dec_blk_nums: [1, 1, 1, 1]
+  d_state: 64
